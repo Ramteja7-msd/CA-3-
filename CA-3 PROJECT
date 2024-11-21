@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #111010;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0.5em 0 0 0;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(to bottom, #1db954, #121212);
+}
+
+.home h2 {
+    font-size: 2.5em;
+}
+
+.home p {
+    font-size: 1.2em;
+}
+
+/* Songs Section */
+.songs {
+    padding: 0em;
+    background-color: #282828;
+}
+
+.songs h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.songs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.songs ul li {
+    background-color: #1DB954;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.songs ul li:hover {
+    transform: scale(1.25);
+    background-color: #111010;
+    color: #1db954;
+
+}
+.songs ul li:active{
+    background-color: red;
+    transform: 2s ;
+    color: black;
+
+}
+
+.song h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.song p {
+    margin: 0;
+    font-size: 1em;
+    color: #333333;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ae1111;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Harmony Box</h1>
+        <nav >
+            <ul>
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#songs">Songs</a></li>
+                <li ><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home">
+        <h2>Welcome to Harmony Box</h2>
+        <p>Your favorite  language songs, all in one place!</p>
+    </section>
+    
+    <section id="songs" class="songs">
+        <h2>Top English Songs</h2>
+        <ul>
+            <li>
+                <div class="song">
+                    <h3>Shape of You</h3>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.fRMxBKZK80oZhTbSDMJNBQHaHa&pid=Api&P=0&h=180" alt="">
+                    
+                    <i>SINGER:ED SHERRAN</i>
+                    
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Blinding Lights</h3>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.JmaQ5hFgA99dOumd_-K6sQHaEl&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:THE WEEKEND</i>
+                    
+                </div>
+            </li>
+            
+            <li>
+                <div class="song">
+                    <h3>Levitating</h3>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.rrQM44p0_gYQtGE9iyW4ngHaEK&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:DUA LIPA</i>
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Dangerous</h3>
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.8r86Rpz_1bppKtLKSUJ4SgHaE4&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER: MICHEAL JACKSON</i>
+                </div>
+            </li>
+        </ul>
+        <h2>Top Telugu Songs</h2>
+        <ul>
+            <li>
+                <div class="song">
+                    <h3>Fear</h3>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.lL3dERZ_ZVkXNOV6xrRPPgHaEO&pid=Api&P=0&h=180"
+                    <i>SINGER:ANIRUDH </i>
+                    
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Mata vindhuga</h3>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.My-vYZE8eDIxfL_eeJZ8EwHaEK&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:SRIRAM</i>
+                </div>
+            </li>
+            
+            <li>
+                <div class="song">
+                    <h3>Samavajagamana</h3>
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.8F9EqUzbkTfW3ENwJ3ulCgHaDi&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:SID SRIRAM</i>
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Chuttumalle</h3>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.AN1k9DZzsZKV9X6HgDocfQHaEL&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:ANIRUDH</i>
+                </div>
+            </li>
+        </ul>
+        <h2>Top Hindi Songs</h2>
+        <ul>
+            <li>
+                <div class="song">
+                    <h3>Chaleya</h3>
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.Q4wfUtbBgOD6Wpg5l53nQAHaEK&pid=Api&P=0&h=180" alt="">
+                    
+                    <i>SINGER:ARJIT SINGH</i>
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Jugnu</h3>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.D6iyYlSsivVCCwrWVg1ACAHaEK&pid=Api&P=0&h=180" alt="">
+                    <i> SINGER:BADSHAH</i>
+                </div>
+            </li>
+            
+            <li>
+                <div class="song">
+                    <h3>Husn</h3>
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.7-uYKACKdygfanThBPdjigHaDt&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:ANUV JAIN</i>
+                </div>
+            </li>
+            <li>
+                <div class="song">
+                    <h3>Heeriye</h3>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.4LE01iUDiw5pggAC4VFmBAHaEK&pid=Api&P=0&h=180" alt="">
+                    <i>SINGER:ARJIT SINGH</i>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <footer id="about" class="footer">
+        <p>Created to listen music in which laguage they want.</p>
+        <p>&copy; 2024Harmony Box </p>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
